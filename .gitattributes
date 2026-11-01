@@ -1,0 +1,4 @@
+*.md text eol=lf
+# Preserve upstream license text byte for byte, including original whitespace.
+third-party/** -text -diff
+SHA256SUMS.txt -text
